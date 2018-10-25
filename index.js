@@ -21,6 +21,10 @@ app.get('/snakes', (req, res) => {
 	res.render('snakes');
 })
 
+app.get('/bears', (req, res) => {
+	res.render('snakes');
+})
+
 app.listen(port, () => {
     console.log('The Server is listening on port ' + port);
 });
