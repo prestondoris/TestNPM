@@ -1,6 +1,6 @@
 const express = require('express');
-//const port = 3000;
-const port = process.env.PORT;
+const port = 3000;
+//const port = process.env.PORT;
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -22,8 +22,13 @@ app.get('/snakes', (req, res) => {
 })
 
 app.get('/bears', (req, res) => {
-	res.render('snakes');
+	res.render('bears');
 })
+
+app.get('/birds', (req, res) => {
+	res.render('birds');
+})
+
 
 app.listen(port, () => {
     console.log('The Server is listening on port ' + port);
