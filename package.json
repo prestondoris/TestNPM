@@ -1,0 +1,22 @@
+{
+  "name": "testnpm",
+  "version": "1.0.0",
+  "description": "testing npm with package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prestondoris/TestNPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prestondoris/TestNPM/issues"
+  },
+  "homepage": "https://github.com/prestondoris/TestNPM#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
